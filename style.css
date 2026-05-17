@@ -66,3 +66,40 @@ body {
 .lists .list-item:hover{
     transform: scale(1.1);
 }
+
+.icons {
+    display: flex;
+    padding:10px;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-size: x-large;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+.icons a:hover{
+    transform: scale(1.2);
+}
+
+.email {
+    padding:10px;
+    margin-top: 20px;
+}
+
+.email a{
+    color: #ffffff;
+    text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: smaller;
+    font-style: italic;
+}
+
+.email a:hover{
+    font-size: small;
+}
