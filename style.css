@@ -103,3 +103,27 @@ body {
 .email a:hover{
     font-size: small;
 }
+
+
+@media (hover: hover) and (pointer: fine) 
+{
+    .icons a:hover
+    {
+        transform: scale(1.2);
+    }
+}
+
+@media (max-width: 450px) {
+
+    .card {
+        width: 100%;
+        height: 120vh;
+        
+       
+    }
+
+    .user-info {
+        margin-top: 100px;
+    }
+
+}
